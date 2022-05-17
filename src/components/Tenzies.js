@@ -56,7 +56,6 @@ export default function Tenzies() {
         <div className="App">
             
             <div className="outline">
-                {/* {finishGame && <ReactCanvasConfetti />} */}
             <h1 className="heading">Tenzies</h1>
             <p className="gameInstructions">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
                 <div className="diceContainer">
