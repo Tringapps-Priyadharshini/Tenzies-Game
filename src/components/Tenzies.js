@@ -1,9 +1,7 @@
-//npm i react-canvas-confetti
 import "../assets/Tenzies.css";
 import Dice from "./Dice";
 import { nanoid } from "nanoid";
 import { useEffect, useState } from 'react'
-// import ReactCanvasConfetti from "react-canvas-confetti";
 export default function Tenzies() {
     const [dice, setDice] = useState(allNewDice())
     const [finishGame,setfinishGame] = useState(false)
